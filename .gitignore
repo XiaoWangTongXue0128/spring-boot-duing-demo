@@ -1,0 +1,3 @@
+# 项目排除路径
+/spring-boot-duing-01-helloworld/target/
+/spring-boot-duing-02-configuration/target/
