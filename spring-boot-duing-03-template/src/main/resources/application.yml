@@ -1,0 +1,18 @@
+server:
+  port: 8090
+
+
+##freemarker整合设置
+#spring:
+#  mvc:
+#    view:
+#      #prefix前缀，设置文件存放位置，不能修改
+#      prefix: /templates/
+#      #suffix后缀，设置文件格式
+#      suffix: .ftl
+
+
+
+spring:
+  messages:
+    basename: message

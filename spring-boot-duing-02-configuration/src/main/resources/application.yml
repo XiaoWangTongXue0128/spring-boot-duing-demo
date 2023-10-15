@@ -1,0 +1,41 @@
+
+#设置加密的盐
+jasypt:
+  encryptor:
+    password: 123456!@#
+    algorithm: PBEWithMD5AndDES
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
+
+info:
+  username: ENC(7Glbh3FKjvSgtVm2yM9Slw==)
+  password: ENC(XqsGV1lWk0thHvhMUHy8kXPxR2ub2qTe)
+
+food:
+  testA: 麻辣
+  testB: 拌饭
+  testC:
+    - 烤肉
+    - 咖喱
+    - 猪排
+
+
+#激活环境
+spring:
+  profiles:
+    active: prod
+
+---
+#开发环境下
+spring:
+  profiles: dev
+
+server:
+  port: 7070
+
+---
+#生产环境下
+spring:
+  profiles: prod
+
+server:
+  port: 7071

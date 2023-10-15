@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-01-helloworld/spring-boot-duing-01-helloworld.iml" filepath="$PROJECT_DIR$/spring-boot-duing-01-helloworld/spring-boot-duing-01-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-02-configuration/spring-boot-duing-02-configuration.iml" filepath="$PROJECT_DIR$/spring-boot-duing-02-configuration/spring-boot-duing-02-configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-03-template/spring-boot-duing-03-template.iml" filepath="$PROJECT_DIR$/spring-boot-duing-03-template/spring-boot-duing-03-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-03-thymeleaf-crud/spring-boot-duing-03-thymeleaf-crud.iml" filepath="$PROJECT_DIR$/spring-boot-duing-03-thymeleaf-crud/spring-boot-duing-03-thymeleaf-crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-demo.iml" filepath="$PROJECT_DIR$/spring-boot-duing-demo.iml" />
+    </modules>
+  </component>
+</project>

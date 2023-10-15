@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta content="text/html" charset="UTF-8">
+
+    </head>
+    <head>
+<!--=====================变量表达式：${...}-->
+<!--        text不会解析标签，controller传什么就展示什么-->
+<!--        <p th:text="${name}" >name</p>-->
+<!--        <p th:text="${person.name}">person name</p>-->
+<!--        <p th:text="${person.age}">person age</p>-->
+
+<!--        utext会解析标签-->
+<!--        <p th:utext="${name}" >name</p>-->
+<!--        <p th:utext="${person.name}">person name</p>-->
+<!--        <p th:utext="${person.age}">person age</p>-->
+
+
+<!--=====================选择变量表达式：*{...}-->
+<!--        <div th:object="${person}">-->
+<!--            <p>name: <span th:text="*{name}">name</span>.</p>-->
+<!--&lt;!&ndash;            *{name}等价于${person.name}}&ndash;&gt;-->
+<!--            <p>name: <span th:text="${person.name}">name</span>.</p>-->
+<!--            <p>age: <span th:text="*{age}">age</span>.</p>-->
+<!--        </div>-->
+<!--&lt;!&ndash;        上述的*{age}等价于*{person.age}&ndash;&gt;-->
+<!--        <p>age: <span th:text="*{person.age}">age</span>.</p>-->
+
+
+<!--=====================链接url表达式： @{...}-->
+<!--        href中装载将被替换暂时值，@{}中是给controller的请求参数-->
+<!--        <a href="/welcome" th:href="@{/welcomerequest}">welcome</a>-->
+
+
+<!--=====================消息表达式： #{...}-->
+<!--        需要在resources包下新建一个message.properties文件，写入message对应的值-->
+        <p th:utext="#{something}"> message</p>
+
+
+
+<!--=====================片段表达式： ~{...}-->
+        <div th:insert="footer :: copy"></div>
+        <div th:replace="footer :: copy"></div>
+        <div th:include="footer :: copy"></div>
+        <!--必须在templates包中创建HTML，否则找不到
+        --》<footer th:fragment="copy"> &copy; 2019</footer>
+        <div><footer> &copy; 2019</footer></div>
+        <footer> &copy; 2019</footer>
+        <div> &copy; 2019</div>
+        -->
+    </head>
+</html>
