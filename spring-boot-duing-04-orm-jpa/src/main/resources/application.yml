@@ -1,0 +1,35 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+#    useUnicode=true  表示使用Unicode字符，因此可以使用中文
+#    characterEncoding=utf8  设置编码方式
+#    useSSL=true   设置安全连接
+#    serverTimezone=UTC    设置全球标准时间
+#    用localhost或者127.0.0.1都行
+    url: jdbc:mysql://127.0.0.1:3306/test_schema?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=UTC
+    username: wtc
+    password: 52mq
+
+
+
+  jpa:
+    hibernate:
+    #自动创建|更新|验证数据库表结构
+      ddl-auto: update
+    #设置数据库引擎为InnoDB
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    #打印sql语句，方便调试
+    show-sql: true
+
+
+#默认根据url识别
+#spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+
+#自动创建|更新|验证数据库表结构
+# spring.jpa.hibernate.ddl-auto=update
+#设置数据库引擎为InnoDB
+#spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
+#打印sql语句，方便调试
+#spring.jpa.show-sql=true
