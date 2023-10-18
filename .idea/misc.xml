@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/spring-boot-duing-03-template/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-duing-03-thymeleaf-crud/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-duing-03-web-restfy/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-duing-04-orm-jpa/pom.xml" />
       </list>
     </option>
   </component>
