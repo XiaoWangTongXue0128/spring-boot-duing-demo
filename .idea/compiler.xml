@@ -11,6 +11,7 @@
         <module name="spring-boot-duing-03-template" />
         <module name="spring-boot-duing-01-helloworld" />
         <module name="spring-boot-duing-03-thymeleaf-crud" />
+        <module name="spring-boot-duing-03-web-restfy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
       <module name="spring-boot-duing-02-configuration" target="1.8" />
       <module name="spring-boot-duing-03-template" target="1.8" />
       <module name="spring-boot-duing-03-thymeleaf-crud" target="1.8" />
+      <module name="spring-boot-duing-03-web-restfy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -26,6 +28,7 @@
       <module name="spring-boot-duing-02-configuration" options="-parameters" />
       <module name="spring-boot-duing-03-template" options="-parameters" />
       <module name="spring-boot-duing-03-thymeleaf-crud" options="-parameters" />
+      <module name="spring-boot-duing-03-web-restfy" options="-parameters" />
     </option>
   </component>
 </project>

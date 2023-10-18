@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-02-configuration/spring-boot-duing-02-configuration.iml" filepath="$PROJECT_DIR$/spring-boot-duing-02-configuration/spring-boot-duing-02-configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-03-template/spring-boot-duing-03-template.iml" filepath="$PROJECT_DIR$/spring-boot-duing-03-template/spring-boot-duing-03-template.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-03-thymeleaf-crud/spring-boot-duing-03-thymeleaf-crud.iml" filepath="$PROJECT_DIR$/spring-boot-duing-03-thymeleaf-crud/spring-boot-duing-03-thymeleaf-crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-03-web-restfy/spring-boot-duing-03-web-restfy.iml" filepath="$PROJECT_DIR$/spring-boot-duing-03-web-restfy/spring-boot-duing-03-web-restfy.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-demo.iml" filepath="$PROJECT_DIR$/spring-boot-duing-demo.iml" />
     </modules>
   </component>
