@@ -1,0 +1,7 @@
+server:
+  port: 8090
+
+#通过配置加载监听器4
+context:
+  listener:
+    classes: com.duing.listener.CustomListener4
