@@ -1,0 +1,33 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+#    useUnicode=true  表示使用Unicode字符，因此可以使用中文
+#    characterEncoding=utf8  设置编码方式
+#    useSSL=true   设置安全连接
+#    serverTimezone=UTC    设置全球标准时间
+#    用localhost或者127.0.0.1都行
+    db1:
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/test_schema?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=UTC
+      username: wtc
+      password: 52mq
+    db2:
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/bac_schema?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=UTC
+      username: wtc
+      password: 52mq
+
+#    mybatis配置
+#  mybatis.config-location=classpath:mybatis-config.xml
+#  logging.level.root=WARN
+#  logging.level.sample.mybatis.xml.mapper=TRACE
+
+mybatis:
+#  传统mybatis——需要配置mybatis-config.xml文件
+#  config-location: classpath:mybatis-config.xml
+
+
+#  改进mabatis——省略mybatis-config.xml文件
+#  mapper-locations: classpath*:/mybatis/mapper/*.xml
+#  type-aliases-package: com.duing.model
+
