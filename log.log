@@ -1,0 +1,11 @@
+2023-10-22 22:12:32.663  INFO 19220 --- [main] com.duing.LoggingApplication             : Starting LoggingApplication on DESKTOP-2U7EKJB with PID 19220 (D:\IntelliJ_IDEA\spring-boot-duing-demo\spring-boot-duing-06-logging\target\classes started by wang in D:\IntelliJ_IDEA\spring-boot-duing-demo)
+2023-10-22 22:12:32.667  INFO 19220 --- [main] com.duing.LoggingApplication             : No active profile set, falling back to default profiles: default
+2023-10-22 22:12:34.411  INFO 19220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-22 22:12:34.436  INFO 19220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-22 22:12:34.436  INFO 19220 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2023-10-22 22:12:34.557  INFO 19220 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-22 22:12:34.557  INFO 19220 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1809 ms
+2023-10-22 22:12:34.891  INFO 19220 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-22 22:12:35.123  INFO 19220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-22 22:12:35.131  INFO 19220 --- [main] com.duing.LoggingApplication             : Started LoggingApplication in 3.036 seconds (JVM running for 4.283)
+2023-10-22 22:15:29.732  INFO 19220 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

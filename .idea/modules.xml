@@ -11,6 +11,11 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-04-orm-mybatis/spring-boot-duing-04-orm-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-duing-04-orm-mybatis/spring-boot-duing-04-orm-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-04-orm-mybatis-plus/spring-boot-duing-04-orm-mybatis-plus.iml" filepath="$PROJECT_DIR$/spring-boot-duing-04-orm-mybatis-plus/spring-boot-duing-04-orm-mybatis-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-05-event-listener/spring-boot-duing-05-event-listener.iml" filepath="$PROJECT_DIR$/spring-boot-duing-05-event-listener/spring-boot-duing-05-event-listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-05-war/spring-boot-duing-05-war.iml" filepath="$PROJECT_DIR$/spring-boot-duing-05-war/spring-boot-duing-05-war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-05-web-container/spring-boot-duing-05-web-container.iml" filepath="$PROJECT_DIR$/spring-boot-duing-05-web-container/spring-boot-duing-05-web-container.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-06-error-exception/spring-boot-duing-06-error-exception.iml" filepath="$PROJECT_DIR$/spring-boot-duing-06-error-exception/spring-boot-duing-06-error-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-06-logging/spring-boot-duing-06-logging.iml" filepath="$PROJECT_DIR$/spring-boot-duing-06-logging/spring-boot-duing-06-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-06-servlet/spring-boot-duing-06-servlet.iml" filepath="$PROJECT_DIR$/spring-boot-duing-06-servlet/spring-boot-duing-06-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-demo.iml" filepath="$PROJECT_DIR$/spring-boot-duing-demo.iml" />
     </modules>
   </component>

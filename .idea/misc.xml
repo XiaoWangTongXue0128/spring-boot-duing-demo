@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/spring-boot-duing-04-orm-mybatis-plus" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-duing-05-war" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -15,6 +16,11 @@
         <option value="$PROJECT_DIR$/spring-boot-duing-04-orm-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-duing-04-orm-mybatis-plus/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-duing-05-event-listener/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-duing-05-web-container/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-duing-05-war/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-duing-06-servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-duing-06-error-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-duing-06-logging/pom.xml" />
       </list>
     </option>
   </component>

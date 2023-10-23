@@ -8,14 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-duing-02-configuration" />
-        <module name="spring-boot-duing-03-template" />
+        <module name="spring-boot-duing-05-web-container" />
         <module name="spring-boot-duing-05-event-listener" />
-        <module name="spring-boot-duing-01-helloworld" />
         <module name="spring-boot-duing-04-orm-mybatis" />
-        <module name="spring-boot-duing-03-web-restfy" />
+        <module name="spring-boot-duing-06-logging" />
         <module name="spring-boot-duing-04-orm-jpa" />
+        <module name="spring-boot-duing-06-error-exception" />
+        <module name="spring-boot-duing-03-template" />
+        <module name="spring-boot-duing-06-servlet" />
+        <module name="spring-boot-duing-01-helloworld" />
+        <module name="spring-boot-duing-03-web-restfy" />
         <module name="spring-boot-duing-04-orm-mybatis-plus" />
         <module name="spring-boot-duing-03-thymeleaf-crud" />
+        <module name="spring-boot-duing-05-war" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +33,11 @@
       <module name="spring-boot-duing-04-orm-mybatis" target="1.8" />
       <module name="spring-boot-duing-04-orm-mybatis-plus" target="1.8" />
       <module name="spring-boot-duing-05-event-listener" target="1.8" />
+      <module name="spring-boot-duing-05-war" target="1.8" />
+      <module name="spring-boot-duing-05-web-container" target="1.8" />
+      <module name="spring-boot-duing-06-error-exception" target="1.8" />
+      <module name="spring-boot-duing-06-logging" target="1.8" />
+      <module name="spring-boot-duing-06-servlet" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -41,6 +51,11 @@
       <module name="spring-boot-duing-04-orm-mybatis" options="-parameters" />
       <module name="spring-boot-duing-04-orm-mybatis-plus" options="-parameters" />
       <module name="spring-boot-duing-05-event-listener" options="-parameters" />
+      <module name="spring-boot-duing-05-war" options="-parameters" />
+      <module name="spring-boot-duing-05-web-container" options="-parameters" />
+      <module name="spring-boot-duing-06-error-exception" options="-parameters" />
+      <module name="spring-boot-duing-06-logging" options="-parameters" />
+      <module name="spring-boot-duing-06-servlet" options="-parameters" />
     </option>
   </component>
 </project>
