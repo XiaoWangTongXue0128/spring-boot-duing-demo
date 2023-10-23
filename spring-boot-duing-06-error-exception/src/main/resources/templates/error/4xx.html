@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>方式二</title>
+    </head>
+    <body>
+    <!--    支持动态页面，且优先级比/public/error/404.html高，即比方式一高-->
+    <!--以4xx.html文件代表所有以4开头的错误码要查找的页面
+    若错误码存在对应的错误码页面，则直接调用对应的错误码页面，如404错误调用404.html文件-->
+
+        这里是/templates/error/4xx.html<br>
+        现在找不到页面
+    <p th:text="${timestamp}">timestamp</p>
+    <p th:text="${status}">status</p>
+    <p th:text="${message}">message</p>
+    </body>
+</html>

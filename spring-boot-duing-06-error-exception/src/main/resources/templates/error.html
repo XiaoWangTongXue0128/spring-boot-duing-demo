@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>方式二</title>
+    </head>
+    <body>
+<!--    支持动态页面，且优先级比/public/error/404.html高，即比方式一高-->
+        这里是/templates/error.html<br>
+
+        现在出现异常了
+        <p th:text="${message}"></p>
+
+    </body>
+</html>

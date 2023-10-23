@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>方式一</title>
+    </head>
+    <body>
+<!--    支持静态页面-->
+        这里是/public/error/404.html<br>
+        现在找不到页面
+    </body>
+</html>
