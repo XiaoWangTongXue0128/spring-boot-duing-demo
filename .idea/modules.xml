@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-06-error-exception/spring-boot-duing-06-error-exception.iml" filepath="$PROJECT_DIR$/spring-boot-duing-06-error-exception/spring-boot-duing-06-error-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-06-logging/spring-boot-duing-06-logging.iml" filepath="$PROJECT_DIR$/spring-boot-duing-06-logging/spring-boot-duing-06-logging.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-06-servlet/spring-boot-duing-06-servlet.iml" filepath="$PROJECT_DIR$/spring-boot-duing-06-servlet/spring-boot-duing-06-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-06-swagger/spring-boot-duing-06-swagger.iml" filepath="$PROJECT_DIR$/spring-boot-duing-06-swagger/spring-boot-duing-06-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-demo.iml" filepath="$PROJECT_DIR$/spring-boot-duing-demo.iml" />
     </modules>
   </component>
