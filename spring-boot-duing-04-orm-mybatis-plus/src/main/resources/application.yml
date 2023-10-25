@@ -22,7 +22,7 @@ spring:
 #  config-location: classpath:mybatis-config.xml
 
 
-#  改进mabatis——省略mybatis-config.xml文件
+#  改进mybatis——省略mybatis-config.xml文件
 #  mapper-locations: classpath*:/mybatis/mapper/*.xml
 #  type-aliases-package: com.duing.model
 
