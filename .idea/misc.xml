@@ -22,6 +22,8 @@
         <option value="$PROJECT_DIR$/spring-boot-duing-06-error-exception/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-duing-06-logging/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-duing-06-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-duing-08-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-duing-09-cache/pom.xml" />
       </list>
     </option>
   </component>
