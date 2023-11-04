@@ -8,7 +8,7 @@ jasypt:
 
 info:
   username: ENC(7Glbh3FKjvSgtVm2yM9Slw==)
-  password: ENC(XqsGV1lWk0thHvhMUHy8kXPxR2ub2qTe)
+  password: ENC(XqsGV1lWk0thHvhMUHy8kXPxR2ub2qTe)x
 
 food:
   testA: 麻辣

@@ -5,4 +5,5 @@
     <select id="getGuests" resultType="com.duing.model.Guest">
         select name,role from guest
     </select>
+
 </mapper>

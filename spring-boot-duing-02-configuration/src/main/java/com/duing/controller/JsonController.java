@@ -1,7 +1,9 @@
 package com.duing.controller;
 
 import com.duing.bean.Food;
+import com.duing.bean.Vegetables;
 import com.duing.config.FoodConfig;
+import com.duing.config.VegetablesConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -14,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
  * 等效于@Controller+@ResponseBody
  */
 @RestController
-@PropertySource(value = "classpath:application.yml")
 public class JsonController {
 //    @Value("${food.testA}")
 //    private String testA;
@@ -26,14 +27,22 @@ public class JsonController {
 
 //    @Autowired
 //    private Food food;
+
     @Autowired
     private FoodConfig foodConfig;
+
+    @Autowired
+    private VegetablesConfig vegetablesConfig;
+
+    /*
 
     @Value("${info.username}")
     private String username;
 
     @Value("${info.password}")
     private String password;
+
+     */
 
     @RequestMapping("json")
     public String json() {
@@ -52,6 +61,16 @@ public class JsonController {
         return food;
     }
 
+    @RequestMapping("vegetables")
+    public Vegetables vegetables() {
+        Vegetables vegetables = new Vegetables();
+        vegetables.setPotato(vegetablesConfig.getPotato());
+        vegetables.setEggplant(vegetablesConfig.getEggplant());
+        vegetables.setGreenpeper(vegetablesConfig.getGreenpeper());
+        return vegetables;
+    }
+/*
+
     @RequestMapping("jasypt")
     public String jasypt() {
         StringBuffer stringBuffer = new StringBuffer();
@@ -60,4 +79,8 @@ public class JsonController {
         stringBuffer.append(password);
         return stringBuffer.toString();
     }
+
+ */
+
+
 }

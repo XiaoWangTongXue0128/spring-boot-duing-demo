@@ -21,14 +21,15 @@ public class GuestController {
     @Autowired
     private GuestService guestService;
 
-
+    //返回页面的路径
+    private String path = "";
 
 //    @RequestMapping(method = RequestMethod.GET)
     @GetMapping//等效于@RequestMapping(method = RequestMethod.GET)
     public String list(Model model) {
         List<Guest> guestList = guestService.getGuests();
         model.addAttribute("guestList", guestList);
-        return "/list";
+        return path+"/list";
     }
 
 

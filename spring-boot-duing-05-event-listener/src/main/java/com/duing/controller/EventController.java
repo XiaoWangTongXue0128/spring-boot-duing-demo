@@ -14,6 +14,7 @@ public class EventController {
 
     @RequestMapping("/event")
     public String event() {
+        //事件发布
         publisher.publishEvent(new CustomEvent(this));
         return "success";
     }

@@ -10,6 +10,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import javax.sql.DataSource;
+
+/**
+ * @MapperScan(basePackages = "com.duing.mapper",sqlSessionFactoryRef ="sqlSessionFactory1" )
+ * basePackages关联的mapper
+ * sqlSessionFactoryRef关联的SqlSessionTemplate
+ */
 @Configuration
 @MapperScan(basePackages = "com.duing.mapper",sqlSessionFactoryRef ="sqlSessionFactory1" )
 public class DBOneConfig {

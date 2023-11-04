@@ -1,10 +1,8 @@
 package com.duing.service;
 
 
-import com.duing.mapper.GuestMapper;
-import com.duing.mapper2.GuestMapper2;
 import com.duing.model.Guest;
-import com.duing.tk.mapper.TkGuestMapper;
+import com.duing.repository.GuestRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,14 +11,11 @@ import java.util.List;
 @Service
 public class GuestServiceImpl implements GuestService{
     @Autowired
-    private GuestMapper mapper;
-//    @Autowired
-//    private TkGuestMapper tkGuestMapper;
+    private GuestRepository repository;
 
     @Override
     public List<Guest> getGuests() {
-        return mapper.getGuests();
-//        return tkGuestMapper.selectAll();
+        return repository.findAll();
     }
 
 

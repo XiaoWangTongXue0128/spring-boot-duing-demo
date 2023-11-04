@@ -17,10 +17,6 @@ spring:
       username: wtc
       password: 52mq
 
-#    mybatis配置
-#  mybatis.config-location=classpath:mybatis-config.xml
-#  logging.level.root=WARN
-#  logging.level.sample.mybatis.xml.mapper=TRACE
 
 mybatis:
 #  传统mybatis——需要配置mybatis-config.xml文件
@@ -28,6 +24,6 @@ mybatis:
 
 
 #  改进mabatis——省略mybatis-config.xml文件
-#  mapper-locations: classpath*:/mybatis/mapper/*.xml
-#  type-aliases-package: com.duing.model
+  mapper-locations: classpath*:/mybatis/mapper/*.xml
+  type-aliases-package: com.duing.model
 

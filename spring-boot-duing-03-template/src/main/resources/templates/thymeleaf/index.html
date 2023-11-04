@@ -19,17 +19,17 @@
 
 <!--=====================选择变量表达式：*{...}-->
 <!--        <div th:object="${person}">-->
-<!--            <p>name: <span th:text="*{name}">name</span>.</p>-->
+<!--            <p>name: <span th:text="*{name}">name</span></p>-->
 <!--&lt;!&ndash;            *{name}等价于${person.name}}&ndash;&gt;-->
-<!--            <p>name: <span th:text="${person.name}">name</span>.</p>-->
-<!--            <p>age: <span th:text="*{age}">age</span>.</p>-->
+<!--            <p>name: <span th:text="${person.name}">name</span></p>-->
+<!--            <p>age: <span th:text="*{age}">age</span></p>-->
 <!--        </div>-->
 <!--&lt;!&ndash;        上述的*{age}等价于*{person.age}&ndash;&gt;-->
-<!--        <p>age: <span th:text="*{person.age}">age</span>.</p>-->
+<!--        <p>age: <span th:text="*{person.age}">age</span></p>-->
 
 
 <!--=====================链接url表达式： @{...}-->
-<!--        href中装载将被替换暂时值，@{}中是给controller的请求参数-->
+<!--        href中装载将被替换的暂时值，@{}中是给controller的请求参数-->
 <!--        <a href="/welcome" th:href="@{/welcomerequest}">welcome</a>-->
 
 

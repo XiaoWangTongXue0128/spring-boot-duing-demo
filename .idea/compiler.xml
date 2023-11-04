@@ -12,6 +12,7 @@
         <module name="spring-boot-duing-05-event-listener" />
         <module name="spring-boot-duing-04-orm-mybatis" />
         <module name="spring-boot-duing-06-logging" />
+        <module name="spring-boot-duing-04-orm-h2DataBase" />
         <module name="spring-boot-duing-04-orm-jpa" />
         <module name="spring-boot-duing-06-error-exception" />
         <module name="spring-boot-duing-03-template" />
@@ -32,6 +33,7 @@
       <module name="spring-boot-duing-03-template" target="1.8" />
       <module name="spring-boot-duing-03-thymeleaf-crud" target="1.8" />
       <module name="spring-boot-duing-03-web-restfy" target="1.8" />
+      <module name="spring-boot-duing-04-orm-h2DataBase" target="1.8" />
       <module name="spring-boot-duing-04-orm-jpa" target="1.8" />
       <module name="spring-boot-duing-04-orm-mybatis" target="1.8" />
       <module name="spring-boot-duing-04-orm-mybatis-plus" target="1.8" />
@@ -53,6 +55,7 @@
       <module name="spring-boot-duing-03-template" options="-parameters" />
       <module name="spring-boot-duing-03-thymeleaf-crud" options="-parameters" />
       <module name="spring-boot-duing-03-web-restfy" options="-parameters" />
+      <module name="spring-boot-duing-04-orm-h2DataBase" options="-parameters" />
       <module name="spring-boot-duing-04-orm-jpa" options="-parameters" />
       <module name="spring-boot-duing-04-orm-mybatis" options="-parameters" />
       <module name="spring-boot-duing-04-orm-mybatis-plus" options="-parameters" />
