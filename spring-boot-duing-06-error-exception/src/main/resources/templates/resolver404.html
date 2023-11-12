@@ -8,6 +8,9 @@
         <!--    支持动态页面，且优先级比/templates/error/404.html高，即比方式二高-->
         这里是/templates/resolver404.html<br>
         现在找不到页面
+        <p th:text="${timestamp}">timestamp</p>
+        <p th:text="${status}">status</p>
+        <p th:text="${message}">message</p>
 
     </body>
 </html>

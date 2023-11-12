@@ -14,7 +14,7 @@ import java.util.List;
 public class GuestController {
 
     /**
-     * @Valid 放在bean前面，用来校验bean是否符合规则
+     * @Valid 放在bean前面，用来校验bean是否符合规则，校验不通过时返回400和失败原因，默认普通模式
      * BindingResult 自定义校验失败时的异常error信息
      */
     @PostMapping("/guest")

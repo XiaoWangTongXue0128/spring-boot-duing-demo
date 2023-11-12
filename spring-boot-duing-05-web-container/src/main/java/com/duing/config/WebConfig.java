@@ -15,6 +15,7 @@ public class WebConfig {
         return new WebServerFactoryCustomizer<ConfigurableWebServerFactory>() {
             @Override
             public void customize(ConfigurableWebServerFactory factory) {
+
                 factory.setPort(5110);
             }
         };
@@ -28,7 +29,8 @@ public class WebConfig {
     @Bean
     public ApplicationRunner runner(WebServerApplicationContext context) {
         return args -> {
-            System.out.println("WebConfig--当前web容器的实现类是"+context.getWebServer().getClass().getName());
+            System.out.println("WebConfig--当前web容器的实现类是"
+                    +context.getWebServer().getClass().getName());
         };
     }
 }
